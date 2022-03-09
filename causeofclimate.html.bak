@@ -1,0 +1,450 @@
+<!doctype html> 
+<html lang="en"> 
+  <head> 
+ 	<title>Climate Warriors</title> 
+    <!-- Required meta tags --> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+ 
+    <!-- Bootstrap CSS --> 
+    <link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+ 	<style> 
+ 	 	.container-fluid {  	 	 	background-image:url("backgroundonsim.jpg");		background-size:cover;  	 	 	background-attachment:fixed;  	 	 	background-position:center center; background-color:green;
+ 	 	} 
+ 	 	.climate { 
+ 	 	 	background:green;						background-size:cover;  	 	 	background-attachment:fixed;  	 	 	background-position:center center; 
+ 	 	} 
+		.container {
+		    background:green;	
+			font-family: 'Comic Sans';
+            }
+			}
+			 	.container-fluid {  	 	 	background-image:url("backgroundonsim.jpg");		background-size:cover;  	 	 	background-attachment:fixed;  	 	 	background-position:center center; background-color:black;
+ 	 	} 
+ 	 	.climate { 
+ 	 	 	background:green;						background-size:cover;  	 	 	background-attachment:fixed;  	 	 	background-position:center center; 
+ 	 	} 
+ 	.footer {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color: green;
+			color: gray;
+			text-align: center;
+			}
+					.navbar {
+			background-color:gray !important;
+			border-bottom:5px solid gray;
+		}
+		
+		.navbar-nav a {
+			text-transform:uppercase;
+			font-family: 'Impact', serif;
+			color:black;
+		}
+		
+		.navbar-nav h6 {
+			text-transform:uppercase;
+			font-family: 'Crimson Pro', serif;
+			color:black;
+		}
+		
+		.navbar-nav li a:hover {
+			background-color:#6495ED;
+			border-radius:10px;
+			color:black !important;
+		}
+		
+		.menu-area {
+			position:static;
+		}
+		.mega-menu {
+			width:100%;
+			background-color:gray;
+			opacity:0.7;
+		}
+		.mega-menu h6 { color:black !important; }
+		.mega-menu a { color:black }
+		
+		.footer {
+		    background-color:#F0F8FF;
+		}
+		
+		.card {
+		    font-family: 'Open Sans Condensed', sans-serif;
+			color:#4B2600;
+		}
+		
+		.jumbotron {
+		    font-family: 'Open Sans Condensed', sans-serif;
+		}
+		
+		@media only screen and (max-width:320px) {
+			.navbar-toggler{
+				font-size:12px;
+			}
+			.navbar-nav a {
+				border-right: none;
+				font-size:12px;
+			}
+			.jumbotron h1 {
+				font-size:25px
+			}
+			.jumbotron h5 {
+				font-size:18px;
+			}
+			.btn {
+				padding:0 3px;
+				font-size:14px;
+				margin:0;
+			}
+			.col-text h1 {
+			font-size:30px;
+			}
+			.card h3 {
+				font-size:25px;
+	        }
+			.card p {
+				font-size:15px;
+	        }
+		}
+		
+		@media only screen and (min-width:321px) and (max-width:768px) {
+			.btn {
+				font-size:18px;
+				margin:0;
+			}
+			.col-text p {
+			font-size:25px;
+			}
+			.card p {
+				font-size:18px;
+			}
+			.container h6 {
+			    font-size:20px;
+			}
+		}	
+
+
+
+ 	</style> 
+     
+  </head> 
+  <body> 
+  <!-- Header --> 
+  
+<!-- Header Menu of the Page -->
+<header>
+         
+    <!-- Top header menu containing
+        logo and Navigation bar -->
+    <div id="top-header">
+             
+   <!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-gray">
+			<a class="navbar-brand ml-5" href="#"><img src="header.png" width="100%"/></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+                <ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cause.html">Causes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="effect.html">Effects</a>
+					</li>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="causeofclimate.html">Lessen Climate Change</a>
+					</li>
+					<li class="nav-item dropdown menu-area">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup=
+						"true" aria-expanded="false">About</a>
+						<div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdown">
+							<div class="row justify-content-center">
+								<div class="col-sm-2 col-md-3 col-lg-2">
+								<h6>By:</h6>
+								<a class="dropdown-item" href="#">Albert E. Adaya</a>
+								<a class="dropdown-item" href="#">Jher Rafael Gorospe</a>
+								<a class="dropdown-item" href="#">9 St mark</a>
+								
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+ </div>
+ 
+    <!-- Image menu in Header to contain an Image and
+        a sample text over that image -->
+    <div id="header-image-menu">
+ 
+    </div>
+</header>
+   <!-- Content -->
+
+    <div class="container background-color-white">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12 background-color-white;">
+			<h6 class="display-3 text-white text-center"> 20 Simple Ways to do in Home to Stop Climate Change </h6>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 1.Dont Waste Water</h6>
+		    </div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="sink.jpg" height="500px" width="100%" />
+                      </div>
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 1.Dont Waste Water</h6>
+		    </div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="sink.jpg" height="500px" width="100%" />
+                      </div>
+											<h3>Conserving water will reduce greenhouse gases. It drains less water from our lakes, bays, and lagoons, which helps to preserve a healthier climate<h3>
+									
+			                    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+					
+    <div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 2.Eat Less Meat </h6>
+		    </div>
+		</div>
+	</div>
+			
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                    <div class="flip-card-inner">
+                            <img src="manok.jpg" height="500px" width="100%" />
+                      </div>
+                            <div class="flip-card-back">
+                                    <h3>Eating less meat will lessen livestock emissions and the huge amounts of fertilizers.</h3>
+			                    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>		
+			</div>
+			
+	 <div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 3.Eat more vegtables </h6>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="tomato.jpg" height="500px" width="100%" />
+                      </div>
+                                    <h3> Eating more vegatables would help you stay healthier than just eating meat.</h3<
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 4. Turn Off the Lights if they're not being used </h6>
+		    </div>
+		</div>
+	</div>
+				
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="light.jpg" height="500px" width="100%" />
+                      </div>
+                            <div class="flip-card-back">
+                                     <h3>When you go away to somewhere dont leave the lightswitches on as it uses power without anyone being around</h3>
+			                    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+			
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 5. Uplug Things your not using </h6>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="charger.jpg" height="500px" width="100%" />
+                      </div>
+                          
+                                  <h3>Same thing as lightswitches unplugging things you arent using can help you conserve energy to avoid greenhouse gasses</h3>
+			                    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white">6.Dont use a engine type vehicle if your destination is near </h6>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+		        
+                            <img src="van.jpg" height="500px" width="100%" />
+                      </div>
+                          
+                                 <h3> If your destination is near you should try using a bike or walking as you can get exercise out of it and it wont product any carbon dioxide</h3>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 7. Do not burn any trash  </h6>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="ash.jpg" height="500px" width="100%" />
+                      </div>
+                           
+                                    <h3>Waste burning is a significant source of dangerous carcinogens like dioxins and furans, and black carbon, a short-lived climate pollutant that contributes to climate change.</h3>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 8. Use lightbulbs with a lower wat  </h6>
+											 <h3> Using lightbulbs with a lower wat can help you save energy and it has a lower use of power </h3>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                    
+                            <img src="bulb.jpg" height="500px" width="100%" />
+                      </div
+                                   
+			    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 9. Throw away your trash  </h6>
+		    </div>
+		</div>
+	</div>
+				
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+		        <div class="flip-card mb-3">
+              
+                            <img src="shoot.jpg" height="500px" width="100%" />
+                      </div>
+					  <h3>Instead of littering you can throw them away better yet recycle them as using recycled materials to make new products reduces the need for virgin materials. This avoids greenhouse gas emissions</h3>
+			                    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+	<div class="container">
+        <div class="row my-4">
+		    <div class="col-md-12 col-lg-12">
+			<h6 class="display-4 text-white"> 10.Dont Use too much Power</h6>
+		    </div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row my-4">
+		        <div class="col-12">
+                            <img src="tristan.jpg" height="500px" width="100%" />
+                      </div>
+                                    <h3> Energy use is one of largest sources of greenhouse gasses from human activities so its better if you use power less </h3>
+			                    </div>
+                            </div>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+	
+		
+			
+	
+				
+   <!-- End of Content -->
+		
+    <!-- Optional JavaScript --> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-
+KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+  <div class="footer">
+  <p>Albert E. Adaya Jher Rafael Gorospe</p>
+
+</div>
+  </body> 
+  
+</html> 
